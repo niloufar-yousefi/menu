@@ -1,6 +1,7 @@
 # menu
 
-![menu](https://github.com/niloufar-yousefi/menu/assets/156951582/4c5d4018-05c4-4b32-9e17-de134a8901b8)
+![menu](https://github.com/niloufar-yousefi/menu/assets/156951582/547ef09a-6fed-44e0-9f48-44c9638cc578)
+
 
 - [Demo Project](https://niloufar-yousefi.github.io/menu/)
 
