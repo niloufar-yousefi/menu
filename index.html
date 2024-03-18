@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./asses/css/output.css">
+  
+</head>
+<body>
+    <main class="w-full *:font-primary ">
+        <div class="w-full 2xl:container mx-auto bg-[#FF7F50] md:px-10 xl:px-48">
+            
+            <!-- desktop mode -->
+            <nav class="hidden md:flex flex-wrap py-4">
+                <ul class="w-[80%] *:capitalize flex text-white   *:transition *:duration-500 ">
+                    <li class="w-[15%]  *:hover:bg-[#2d2d2d]"><a class="w-full h-full items-center py-2 flex justify-center" href="">home</a></li>
+                    <li class="w-[15%]  *:hover:bg-[#2d2d2d]"><a class="w-full py-2 h-full items-center flex justify-center" href="">product</a></li>
+                    <li class="w-[15%]  *:hover:bg-[#2d2d2d]"><a class="w-full py-2 h-full items-center flex justify-center" href="">gallery</a></li>
+                    <li class="w-[15%]  *:hover:bg-[#2d2d2d]"><a class="w-full py-2 h-full items-center flex justify-center" href="">blog</a></li>
+                    <li class="w-[15%]  *:hover:bg-[#2d2d2d]"><a class="w-full py-2 h-full items-center flex justify-center" href="">about us</a></li>
+                </ul>
+                <div class="w-[15%] *:hover:bg-[#2d2d2d] ">
+                    <button class="w-full capitalize 0 h-full px-2 flex items-center justify-center text-white" type="button"><a href="w-full h-full py-2 ">go my blog</a></button>
+                </div>
+            </nav>
+
+             <!-- mobile mode -->
+             <div class="md:hidden  w-full">
+                <i class="bi bi-list text-white  text-4xl border-b-2 py-5 ps-5 bg-[#FF7F50] flex w-full cursor-pointer"  onclick="myFunc(this)"></i> 
+                <nav class="   bg-[#FF7F50] w-full  transition-all  duration-500">       
+                    <ul class="*:capitalize *:text-white *:border-b overflow-hidden transition-all duration-500" id="_nav">
+                        <li class="w-full *:hover:bg-[#2d2d2d]"><a class="w-full ps-5 py-2 flex" href="">home</a></li>
+                        <li class="w-full  *:hover:bg-[#2d2d2d]"><a class="w-full ps-5 py-2  flex" href="">product</a></li>
+                        <li class="w-full  *:hover:bg-[#2d2d2d]"><a class="w-full ps-5 py-2  flex" href="">gallery</a></li>
+                        <li class="w-full  *:hover:bg-[#2d2d2d]"><a class="w-full ps-5 py-2  flex" href="">blog</a></li>
+                        <li class="w-full  *:hover:bg-[#2d2d2d]"><a class="w-full ps-5 py-2  flex" href="">about us</a></li>
+                    </ul>
+                </nav>
+             </div>             
+           
+        </div>
+    </main>
+       
+        
+          
+</body>
+<script src="./asses/script/script.js"></script>
+</html>
